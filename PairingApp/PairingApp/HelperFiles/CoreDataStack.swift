@@ -13,7 +13,7 @@ class CoreDataStack {
     
     static let container: NSPersistentContainer = {
         
-        let container = NSPersistentContainer(name: "TaskApp")
+        let container = NSPersistentContainer(name: "PairingApp")
         container.loadPersistentStores { (storeDescription, error) in
             if let error = error as NSError? {
                 fatalError("Unresolved error \(error), \(error.userInfo)")

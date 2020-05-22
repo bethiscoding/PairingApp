@@ -10,13 +10,13 @@ import Foundation
 
 extension Sequence {
     
-    func group(by groupsize:Int) -> [[Element]] {
+    func group(by groupSize: Int) -> [[Element]] {
         let slices : [[Element]] = self.reduce(into:[]) {
             memo, cur in
             if memo.count == 0 {
                 return memo.append([cur])
             }
-            if memo.last!.count < clumpsize {
+            if memo.last!.count < groupSize {
                 memo.append(memo.removeLast() + [cur])
             } else {
                 memo.append([cur])

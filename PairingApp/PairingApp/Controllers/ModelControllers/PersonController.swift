@@ -29,12 +29,14 @@ class PersonController {
     func createPerson(name: String) {
         _ = Person(name: name)
         saveToPersistentStorage()
+        print("Saved person successfully")
     }
     
     func deletePerson(personToDelete: Person) {
         if let MOC = personToDelete.managedObjectContext {
             MOC.delete(personToDelete)
             saveToPersistentStorage()
+            print("Deleted person successfully")
         }
     }
     
