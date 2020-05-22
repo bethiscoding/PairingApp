@@ -9,4 +9,13 @@
 import Foundation
 import CoreData
 
-
+extension Person {
+    
+    @discardableResult
+    
+    convenience init(name: String, context: NSManagedObjectContext = CoreDataStack.context) {
+        self.init(context: context)
+        self.name = name
+    }
+    
+} //End

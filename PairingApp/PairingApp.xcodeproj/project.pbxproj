@@ -15,6 +15,9 @@
 		5298C35F24782336003BB2B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5298C35D24782336003BB2B6 /* LaunchScreen.storyboard */; };
 		52E95171247823EA00ADCF02 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E95170247823EA00ADCF02 /* CoreDataStack.swift */; };
 		52E95173247824A200ADCF02 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E95172247824A200ADCF02 /* Person.swift */; };
+		52E951752478273C00ADCF02 /* PersonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E951742478273C00ADCF02 /* PersonController.swift */; };
+		52E9517724782ADE00ADCF02 /* PairedListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E9517624782ADE00ADCF02 /* PairedListTableViewController.swift */; };
+		52E951792478336100ADCF02 /* SequenceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E951782478336100ADCF02 /* SequenceExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		5298C36024782336003BB2B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52E95170247823EA00ADCF02 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		52E95172247824A200ADCF02 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		52E951742478273C00ADCF02 /* PersonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonController.swift; sourceTree = "<group>"; };
+		52E9517624782ADE00ADCF02 /* PairedListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairedListTableViewController.swift; sourceTree = "<group>"; };
+		52E951782478336100ADCF02 /* SequenceExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		5298C3692478236B003BB2B6 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				52E9517624782ADE00ADCF02 /* PairedListTableViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -108,6 +115,7 @@
 		5298C36A24782370003BB2B6 /* ModelControllers */ = {
 			isa = PBXGroup;
 			children = (
+				52E951742478273C00ADCF02 /* PersonController.swift */,
 			);
 			path = ModelControllers;
 			sourceTree = "<group>";
@@ -125,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				52E95170247823EA00ADCF02 /* CoreDataStack.swift */,
+				52E951782478336100ADCF02 /* SequenceExtension.swift */,
 			);
 			path = HelperFiles;
 			sourceTree = "<group>";
@@ -200,10 +209,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52E951792478336100ADCF02 /* SequenceExtension.swift in Sources */,
 				52E95173247824A200ADCF02 /* Person.swift in Sources */,
+				52E9517724782ADE00ADCF02 /* PairedListTableViewController.swift in Sources */,
 				5298C35024782334003BB2B6 /* AppDelegate.swift in Sources */,
 				5298C35A24782334003BB2B6 /* PairingApp.xcdatamodeld in Sources */,
 				5298C35224782334003BB2B6 /* SceneDelegate.swift in Sources */,
+				52E951752478273C00ADCF02 /* PersonController.swift in Sources */,
 				52E95171247823EA00ADCF02 /* CoreDataStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
